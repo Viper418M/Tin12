@@ -2,12 +2,7 @@
   color: tomato;
   font-weight: bold;
   font-size: 25pt;
-}
-.contents{
-  color: black;
-  font-weight: normal;
-  font-size: 14pt
-}
+
 
 .border{
   display:flex;
@@ -24,6 +19,9 @@
 }
 .content{
   flex:70%
+  color: black;
+  font-weight: normal;
+  font-size: 14pt
   background-color:white
 }
 .content iframe{
