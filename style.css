@@ -6,7 +6,7 @@
 
 .border{
   display:flex;
-  flex-direction:columb;
+  flex-direction:column;
   height:100vh;
 }
 .header{
@@ -22,7 +22,7 @@
   color:purple;
 }
 .menu hover{
-  background color:light yellow;
+  background color:lightyellow;
   color:magenta;
 }
 .content{
