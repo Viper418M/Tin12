@@ -4,7 +4,7 @@
   height:100vh;
 }
 .header{
-  flex:5%;
+  flex:15%;
   background-color:lightgray;
 }
 .menu{
@@ -23,7 +23,7 @@
   text-decoration:none;
 }
 .content{
-  flex:80%;
+  flex:70%;
   background-color:white;
 }
 .content iframe{
