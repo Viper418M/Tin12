@@ -11,7 +11,7 @@
 }
 .header{
   flex:15%;
-  background-color:teal;
+  background-color:lightblue;
 }
 .menu{
   flex:5%;
@@ -24,7 +24,7 @@
   text-decoration:none;
 }
 .menu a:hover{
-  background-color:lightpurple;
+  background-color: magenta;
   color:white;
   text-decoration:none;
 }
