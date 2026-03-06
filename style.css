@@ -16,7 +16,7 @@
 }
 .menu{
   flex:5%;
-  background-color:lightblue;
+  background-color:blue;
   display:flex;
 }
 .menu a{
