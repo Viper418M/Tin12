@@ -11,7 +11,7 @@
 }
 .header{
   flex:15%;
-  background: url("images/i_Good-Vibes-Facebook-Page_full.jpg")center/100%;
+  background: url("images/i_Good-Vibes-Facebook-Page_full.jpg")center / cover no-repeat;
   aspect-ratio:6/1;
 }
 .menu{
