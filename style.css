@@ -21,7 +21,7 @@
 
 .menu{
   flex:5%;
-  background-color:cyan;
+  background-color:lightblue;
   display:flex;
 }
 .menu a{
