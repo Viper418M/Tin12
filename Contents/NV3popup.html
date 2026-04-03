@@ -6,16 +6,19 @@
 
 <body style="text-align:center; margin-top:100px;">
 <p id='kq'></p>
+
 <script>
   let pp = new URLSearchParams(window.location.search);
   let ten = pp.get("txtTen");
   let dc = pp.get("email");
   let yk = pp.get("txtComment");
-  document.getElementById("kq").innerHTML= "Cảm ơn bạn" + ten + "email" + dc + "đã góp ý"<br><br> chúng tôi xin ghi nhận ý kiến của bạn như sau:<br> + yk;
+
+  document.getElementById("kq").innerHTML =
+    "Cảm ơn bạn " + ten + " (" + dc + ") đã góp ý.<br><br>" +
+    "Chúng tôi xin ghi nhận ý kiến của bạn như sau:<br>" + yk;
 </script>
 
-
-  <button onclick="history.back()">Quay lại</button>
+<button onclick="history.back()">Quay lại</button>
 
 </body>
 </html>
