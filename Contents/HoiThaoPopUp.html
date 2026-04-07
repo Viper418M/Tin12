@@ -6,11 +6,18 @@
 
 <body style="text-align:center; margin-top:100px;">
 
-  <h2> Đăng ký hoàn tất </h2>
+  <p id='kq'></p>
 
-  
+<script>
+  let pp = new URLSearchParams(window.location.search);
+  let ten = pp.get("txtTen");
+  let dc = pp.get("email");
+  let yk = pp.get("txtComment");
 
-  <br>
+  document.getElementById("kq").innerHTML =
+    "Cảm ơn bạn " + ten + " (" + dc + ") đã đăng ký cho hội thao.<br><br>" +
+    "Chúng tôi xin ghi nhận lựa chọn của bạn như sau:<br>" + yk;
+</script>
 
   <button onclick="history.back()">Quay lại</button>
 
